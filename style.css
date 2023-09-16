@@ -79,10 +79,29 @@ body{
 }
 .container-conteudo .conteudo-primeiro{
     width: 100vw;
+    height: 100vh;
 }
 .imagem1{
-    padding: 20px;
+    width: 50%;
+    padding: 40px;
 }
 .imagem1 img{
     border-radius: 500px;
+}
+.txt-biografia{
+    width: 30%;
+    margin-top: -20%;
+    margin-left: 800px;
+}
+.txt-biografia p{
+    display: flex;
+    align-items: center;
+    text-align: justify;
+}
+
+
+.container-conteudo .conteudo-segundo{
+    width: 100vw;
+    height: 100vh;
+    background-color: #000000;
 }
