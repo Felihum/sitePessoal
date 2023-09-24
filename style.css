@@ -102,31 +102,19 @@ body{
 .container-experiencias{
     width: 100vw;
     height: 100vh;
-    background-color: #000000;
+    display: flex;
+    
 }
 .lista-experiencias{
-    position: absolute;
-    left: 50%;
-    margin-left: -80px;
+    margin: 0 auto;
 }
 .lista-experiencias li{
     padding: 40px;
-    color: rgb(255, 255, 255)
-}
-
-.lista-experiencias li span{
-    position: relative;
-}
-.container-experiencias .lista-experiencias{
-    position: absolute;
-    background-color: #000000;
-    width: 600px;
-    height: 100vh;
-    left: 50%;
+    color: rgb(255, 255, 255);
     
 }
 .container-footer{
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     width: 100vw;
     height: 30vh;
 }

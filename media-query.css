@@ -29,4 +29,18 @@
         align-items: center;
         text-align: justify;
     }
+    .container-experiencias{
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        margin-top: 20%;
+    }
+    .lista-experiencias{
+        margin: 0 auto;
+        
+    }
+}
+
+@media screen and () {
+    
 }
