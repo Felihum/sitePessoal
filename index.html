@@ -6,11 +6,16 @@
     <title>Página Inicial</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="./media-query.css">
 </head>
 <body>
     <div class="container-introducao">
-        <div class="estatico"><p>Bem vindo ao meu site. <br></p></div>
-        <div class="estatico"><p>Eu sou programador</p></div>
+        <div class="estatico">
+            <p>Bem vindo ao meu site. </p>
+        </div>
+        <div class="estatico">
+            <p>Eu sou programador</p>
+        </div>
         <ul class="dinamico">
             <li><span>Java</span></li>
             <li><span>Python</span></li>
@@ -18,29 +23,32 @@
             <li><span>PHP</span></li>
         </ul> 
     </div>
-    <div class="container-conteudo">
-        <div class="conteudo-primeiro">
-            <div class="imagem1" data-aos="fade-right">
-                <img src="imagens/fotoPerfil.jpeg">
-            </div>
-            <div class="txt-biografia" data-aos="fade-right">
-                <h1>Olá, eu sou Felipe Martins !</h1>
-                <p>Sou apaixonado por programação desde os meus 14 anos, quando entrei na FAETEC, cursando ensino médio técnico em informática. Desde então, estou sempre pesquisando e me aprimorando nesta área. Hoje, aos 18 anos, curso Ciência da Computação no Centro Universitário Unicarioca. Álem de estudar por conta própria assuntos como: Java, Python, C++ e PHP.</p>
-            </div>
+    <div class="container-conteudo" data-aos="fade-right">
+        <div class="imagem1">
+            <img src="imagens/fotoPerfil.jpeg">
         </div>
-        <div class="conteudo-segundo">
-            <div class="box-experiencias" data-aos="fade-left">
-                <ul class="lista-experiencias">
-                    <li><span>Experiencia 1</span></li>
-                    <li><span>Experiencia 2</span></li>
-                    <li><span>Experiencia 3</span></li>
-                    <li><span>Experiencia 4</span></li>
-                    <li><span>Experiencia 5</span></li>
-                    <li><span>Experiencia 6</span></li>
-                    <li><span>Experiencia 7</span></li> 
-                 </ul>
-            </div>
+        
+        <div class="txt-biografia" data-aos="fade-right">
+            <h1>Olá, eu sou Felipe Martins !</h1>
+            <p>Sou apaixonado por programação desde os meus 14 anos, quando entrei na FAETEC, cursando ensino médio técnico em informática. Desde então, estou sempre pesquisando e me aprimorando nesta área. Hoje, aos 18 anos, curso Ciência da Computação no Centro Universitário Unicarioca. Álem de estudar por conta própria assuntos como: Java, Python, C++ e PHP.</p>
         </div>
+    </div>
+    <div class="container-experiencias">
+        <ul class="lista-experiencias" data-aos="fade-left">
+            <li><span>Experiencia 1</span></li>
+            <li><span>Experiencia 2</span></li>
+            <li><span>Experiencia 3</span></li>
+            <li><span>Experiencia 4</span></li>
+            <li><span>Experiencia 5</span></li>
+            <li><span>Experiencia 6</span></li>
+            <li><span>Experiencia 7</span></li> 
+        </ul>
+    </div>
+    
+    <div class="container-footer">
+        <footer>
+
+        </footer>
     </div>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>

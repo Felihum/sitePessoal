@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+@media screen and (max-width: 1579px) {
+    .container-introducao{
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+    .container-conteudo{
+        
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .imagem1{
+        position: relative;
+    }
+    .container-conteudo .imagem1{
+        margin: 0 auto;
+        width: 500px;
+        height: 500px;
+    }
+    .txt-biografia{
+        width: 30%;
+        margin: 0 auto;
+    }
+    .txt-biografia p{
+        display: flex;
+        align-items: center;
+        text-align: justify;
+    }
+}
