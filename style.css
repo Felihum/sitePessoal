@@ -114,11 +114,10 @@ body{
     
 }
 .container-footer{
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
     width: 100vw;
     height: 30vh;
 }
-.link-instagram{
+.link-instagram i{
     font-size: 16px;
-    color: #000000;
 }
